@@ -5,25 +5,22 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development with development environment parameters
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run serve-development
 ```
 
-### Run your tests
+### Compiles and hot-reloads for development with test environment parameters
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm run serve-development
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Compiles and minifies for deployment with test parameters
+```
+npm run build-test
+```
+
+### Compiles and minifies for deployment with production parameters
+```
+npm run build-test
+```
